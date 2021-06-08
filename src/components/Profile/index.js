@@ -4,18 +4,33 @@ import styles from './style.module.scss'
 export default function Profile(props) {
     const { name, avatar_url, bio, followers, following } = props.user
     const repos = props.repos;
-    const [repoAtual, setRepoAtual] = useState(0);
-    console.log(repos.length)
+    const [repoAtual, setRepoAtual] = useState(1);
+    const [bol, setBol] = useState(false);
 
     const previous = () => {
         if(repoAtual > 0) {
             setRepoAtual(oldRepoAtual => oldRepoAtual - 1)
         }
+        setBol(true)
     }
 
     const forward = () => {
         if(repoAtual < repos.length - 1) {
             setRepoAtual(oldRepoAtual => oldRepoAtual + 1)
+        }
+        setBol(true)
+    }
+
+    if(bol) {
+        if(repoAtual > 0) {
+            document.querySelector('.style_arrowLeft__2b9OQ').style.visibility = 'visible';
+        } else {
+            document.querySelector('.style_arrowLeft__2b9OQ').style.visibility = 'hidden';
+        }
+        if(repoAtual < repos.length - 1) {
+            document.querySelector('.style_arrowRight__3nm_N').style.visibility = 'visible';
+        } else {
+            document.querySelector('.style_arrowRight__3nm_N').style.visibility = 'hidden';
         }
     }
 

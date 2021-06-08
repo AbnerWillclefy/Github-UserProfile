@@ -3,12 +3,16 @@ import api from '../../services/api.js'
 
 export default function Login(props) {
     const getUser = async () => {
+        if(props.value === '') {return }
+
         try{
             const { data } = await api.get(props.value)
             const response = await api.get(`${props.value}/repos`)
             props.setUser(data);
             props.setRepos(response.data);
         } catch(error) {
+            alert('Usuário Inválido');
+            document.location.reload(true)
             console.log(error)
         }
         if(props.logged === false) {
