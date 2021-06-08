@@ -21,7 +21,7 @@
 
 ## 🧐 Sobre o projeto <a name = "about"></a>
 
-Este projeto foi construído com ReactJS e é capaz de exibir um layout de perfil de um usuário do Github com os dados retirados de uma API
+Este projeto exibe o perfil de um usuário do github, listando suas informações e seus repositórios.
 
 ## 🎨 Layout
 
