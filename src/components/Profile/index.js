@@ -48,7 +48,7 @@ export default function Profile(props) {
                             <span>{repos[repoAtual].language}</span>
                         </div>
 
-                        <a href={repos[repoAtual].html_url} className={styles.clickArea} target="_blank">
+                        <a href={repos[repoAtual].html_url} className={styles.clickArea}>
                         <div>
                             <img src='go-to-location.svg' alt="goto" className={styles.goto}/>
                         </div>
