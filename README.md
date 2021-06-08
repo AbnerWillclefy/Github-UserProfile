@@ -1,12 +1,12 @@
-<h3 align="center">Todo App</h3>
+<h3 align="center">GitHub-UserProfile</h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AbnerWillclefy/ToDo-App?color=%2304D361&style=flat">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AbnerWillclefy/Github-UserProfile?color=%2304D361&style=flat">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/AbnerWillclefy/ToDo-App?style=flat">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/AbnerWillclefy/Github-UserProfile?style=flat">
   
-  <a href="https://github.com/AbnerWillclefy/ToDo-App/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AbnerWillclefy/ToDo-App?style=flat">
+  <a href="https://github.com/AbnerWillclefy/Github-UserProfile/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AbnerWillclefy/Github-UserProfile?style=flat">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat">
@@ -15,60 +15,60 @@
 
 ---
 
-<p align="center"> Um projeto baseado em javascript para a criação de uma lista de tarefas
+<p align="center"> Um projeto criado em React para criação exibição de um usuário Github
     <br> 
 </p>
 
 ## 🧐 Sobre o projeto <a name = "about"></a>
 
-Este projeto foi construído com a intenção de criar uma aplicação de lista de tarefas que ficam salvas no seu LocalStorage.
+Este projeto exibe o perfil de um usuário do github, listando suas informações e seus repositórios.
 
 ## 🎨 Layout
 
 ### Telas Desktop
 
 <div align="center">
-  <img width="100%" src="./design/desktop-design-dark.jpg"/>
-  <img width="100%" src="./design/desktop-design-light.jpg"/>
+  <img width="100%" src="./public/loginpagedesktop.png"/>
+  <img width="100%" src="./public/profilepagedesktop.png"/>
 </div>
 
 ### Telas Mobile
 
 <div align="center">
   <div display="flex">
-  <img width="40%" src="./design/mobile-design-dark.jpg"/>
-  <img width="40%" src="./design/mobile-design-light.jpg"/>
+  <img width="40%" src="./public/loginpagemobile.png"/>
+  <img width="40%" src="./public/profilepagemobile.png"/>
   </div>
 </div>
+
+## :video_game: Link para o projeto 
+:point_right: [Github-UserProfile](https://github-user-profile-theta.vercel.app)
 
 ## 🎈 Utilidades
 
 - Layout Responsivo
-- Criar de tarefas
-- Apagar tarefas
-- Marcar tarefas como concluídas
-- Filtrar tarefas em:
-  - Todas
-  - Completas
-  - Ativas
-- Apagar tarefas concluídas
-- Visualização da quantidade de tarefas ativas restantes
-- Mudança de tema da página
+- Pesquisar usuário
+- Listar informações do perfil
+  - Foto do perfil
+  - Bio
+  - Quantidade de seguidores e perfis seguidos
+- Listar repositórios
 
 ### :bulb: Utilidades para serem desenvolvidas
-- Possibilidade de clicar e arrastar as tarefas para reorganizar
+- Mostrar o readme pessoal do usuário
 
 ## 🚀 Tecnologias utilizadas 
 
 - <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code>
-- <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>
-- <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
+- <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React"/></code>
+- <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" alt="SASS"/></code>
 
 ## 🎉 Conhecimentos Adquiridos
 
-- LocalStorage
-- Frontend Mentor
-- Responsividade (Media Queries)
+- React Hooks
+- React Components
+- Axios
+- Sass
 
 ## 🌟 Autor 🌟
 
