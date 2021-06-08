@@ -23,3 +23,9 @@ body {
   height: 100vh;
   background-color: var(--background);
 }
+
+@media(max-width: 425px) {
+  html {
+    font-size: 50%;
+  }
+}
