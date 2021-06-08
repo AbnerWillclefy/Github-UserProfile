@@ -53,7 +53,6 @@ export default function Profile(props) {
                             <img src='go-to-location.svg' alt="goto" className={styles.goto}/>
                         </div>
                         </a>
-
                     </div>
                 <img src='next.png' alt="Arrow right" className={styles.arrowRight} onClick={forward}/>
             </div>
