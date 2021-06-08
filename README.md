@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<h3 align="center">Todo App</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AbnerWillclefy/ToDo-App?color=%2304D361&style=flat">
 
-## Available Scripts
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/AbnerWillclefy/ToDo-App?style=flat">
+  
+  <a href="https://github.com/AbnerWillclefy/ToDo-App/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AbnerWillclefy/ToDo-App?style=flat">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat">
+  
+</p>
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+<p align="center"> Um projeto baseado em javascript para a criação de uma lista de tarefas
+    <br> 
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🧐 Sobre o projeto <a name = "about"></a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Este projeto foi construído com a intenção de criar uma aplicação de lista de tarefas que ficam salvas no seu LocalStorage.
 
-### `yarn test`
+## 🎨 Layout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Telas Desktop
 
-### `yarn build`
+<div align="center">
+  <img width="100%" src="./design/desktop-design-dark.jpg"/>
+  <img width="100%" src="./design/desktop-design-light.jpg"/>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Telas Mobile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align="center">
+  <div display="flex">
+  <img width="40%" src="./design/mobile-design-dark.jpg"/>
+  <img width="40%" src="./design/mobile-design-light.jpg"/>
+  </div>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎈 Utilidades
 
-### `yarn eject`
+- Layout Responsivo
+- Criar de tarefas
+- Apagar tarefas
+- Marcar tarefas como concluídas
+- Filtrar tarefas em:
+  - Todas
+  - Completas
+  - Ativas
+- Apagar tarefas concluídas
+- Visualização da quantidade de tarefas ativas restantes
+- Mudança de tema da página
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### :bulb: Utilidades para serem desenvolvidas
+- Possibilidade de clicar e arrastar as tarefas para reorganizar
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Tecnologias utilizadas 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code>
+- <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>
+- <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🎉 Conhecimentos Adquiridos
 
-## Learn More
+- LocalStorage
+- Frontend Mentor
+- Responsividade (Media Queries)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌟 Autor 🌟
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [@AbnerWillclefy](https://github.com/AbnerWillclefy)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Linkedin Badge](https://img.shields.io/badge/-AbnerWillclefy-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/abner-willclefy/)](https://www.linkedin.com/in/abner-willclefy/)
