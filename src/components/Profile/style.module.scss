@@ -129,6 +129,12 @@
             cursor: pointer;
         }
 
+        .noDisplay {
+            width: 4rem;
+            height: 4rem;
+            visibility: hidden;
+        }
+
         .arrowRight {
             width: 4rem;
             height: 4rem;

@@ -1,10 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './style.module.scss'
 
 export default function Profile(props) {
     const { name, avatar_url, bio, followers, following } = props.user
     const repos = props.repos;
-    const [repoAtual, setRepoAtual] = useState(1);
+    const [repoAtual, setRepoAtual] = useState(0);
+    const [arrowLeftState, setArrowLeftState] = useState(true)
+    const [arrowRightState, setArrowRightState] = useState(true)
 
     const previous = () => {
         if(repoAtual > 0) {
@@ -17,6 +19,21 @@ export default function Profile(props) {
             setRepoAtual(oldRepoAtual => oldRepoAtual + 1)
         }
     }
+
+    useEffect(() => {
+        switch(repoAtual) {
+            case 0: 
+                setArrowLeftState(false)
+                break;
+            case repos.length - 1: 
+                setArrowRightState(false)
+                break;
+            default :
+                setArrowLeftState(true) 
+                setArrowRightState(true)
+                break;    
+        }
+    }, [repoAtual, repos])
 
     return (
         <div className={styles.container}>
@@ -38,7 +55,7 @@ export default function Profile(props) {
             </div>
 
             <div className={styles.repo}>
-                <img src='next.png' alt="Arrow left" className={styles.arrowLeft} onClick={previous}/>
+                <img src='next.png' alt="Arrow left" className={arrowLeftState ? styles.arrowLeft : styles.noDisplay} onClick={previous}/>
                     <div className={styles.containerRepo}>
 
                         <div className={styles.textRepo}>
@@ -53,7 +70,7 @@ export default function Profile(props) {
                         </div>
                         </a>
                     </div>
-                <img src='next.png' alt="Arrow right" className={styles.arrowRight} onClick={forward}/>
+                <img src='next.png' alt="Arrow right" className={arrowRightState ? styles.arrowRight : styles.noDisplay} onClick={forward}/>
             </div>
         </div>
         
